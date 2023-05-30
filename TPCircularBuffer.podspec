@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source_files       = '*.{c,h}'
   s.requires_arc       = false
   s.frameworks         = 'AudioToolbox'
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '10.8'
   s.tvos.deployment_target = '9.0'
 end
